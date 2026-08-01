@@ -1,7 +1,29 @@
 aid: pi-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pi-health.png
 name: Pi Health
-description: Pi Health is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pi Health is an AI-native clinical trial technology company and contract
+  research organization (CRO) building FICS, a unified operating system for
+  oncology and global clinical trials. Its platform consolidates traditionally
+  fragmented systems — Electronic Data Capture (EDC), Clinical Trial Management
+  System (CTMS), electronic Trial Master File (eTMF), electronic Investigator
+  Site File (eISF), and an EMR-to-EDC Orchestrator — into a single AI-validated
+  master record spanning study startup through closeout. Pi Health pairs the
+  platform with CRO services and a global research network with oncology sites
+  across the US, Brazil, Australia, and India. As of this profile the company
+  exposes no public developer API, SDK, or documentation surface; this remains
+  an identity profile in the API Evangelist network awaiting a public API.
 url: https://raw.githubusercontent.com/api-evangelist/pi-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Clinical Trials
+- Clinical Research
+- Healthcare
+- Life Sciences
+- Oncology
+- Contract Research Organization
+- EDC
+- CTMS
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://pihealth.ai
+  url: https://www.pihealth.ai/
+- type: About
+  url: https://www.pihealth.ai/company
+- type: Support
+  url: https://www.pihealth.ai/contact
+- type: Press
+  url: https://www.pihealth.ai/press
+- type: SignUp
+  url: https://www.pihealth.ai/request-a-demo
+- type: PrivacyPolicy
+  url: https://www.pihealth.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.pihealth.ai/terms-of-use
+- type: Legal
+  url: https://www.pihealth.ai/legal
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
